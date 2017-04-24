@@ -1,0 +1,4 @@
+fruits = ["apple", "orange", "banana", "cherry"]
+
+for position in range(len(fruits)):     # by index
+    print(fruits[position])
