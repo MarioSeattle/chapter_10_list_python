@@ -1,0 +1,10 @@
+def isEven(number):
+    return number%2 == 0
+    
+def sum_evens(numbers):
+    result = 0 
+    for number in numbers:
+        if isEven(number):
+            result += number
+
+    return result
